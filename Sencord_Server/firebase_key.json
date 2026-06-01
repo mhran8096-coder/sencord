@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sencord-99002",
+  "private_key_id": "a4546de0906472c3640368daa1121b6e2e1da8ac",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCb9VBzr7gZExYS\nd6OGNUc8R9HoilPbOY8QjWOXBLXu6NuBRNqJzKCwCCtPlLB+Gyi9fD0hSFKSmc5v\n1hvxT3RVwKZfc01Ts20p3cf8RFpRA8uwgPGIFaCXWZ0UI7+Jsgm9sOu6GCfEPz8X\nc/1vP03lRSy+VgxiWpxp0OtGF1MIVlsjzV3yEn2ZZVE2bPfPqkv9xf/WGxMdFDTH\n4gzDldqS7gcdBq9udDixA3JY9j6nAiGi4ElT2eViz1x43P/zxIhRy2862il2GxXx\nEOtiaGGiWmbK+4lXoh5WYZ2LHly0fMOIOS4jA4n98tqiqnywLGh/STHz7iUQgj8w\nFsQvyJ6FAgMBAAECggEAHoB0eyO/VDwc4YC/nSR3aa08OwguzV3tApY8h5E2yeKF\n57rhKPk55iO64MYaXJeQOLr/M66y45QsQUg1T9Uz0f+rKljhI0Eg1QLYtZhit5yP\n7lXRp0VfkqpGo+U39US6Tfy3pb5KrMGX48zeIK9XW0NTtGgc5PGGzNU85ojyRtta\nsBjKhI9yvA3esjTKkNJPzSMpY6iXzmgU4zoUuquojvuNOYtb0Q8H/GAPJzIs7J6K\ngKLGnJMzzOyolkIC9o+kwCqlhmXAIS+nx6DXZEqOsBlVtwZ6IcrBBWTImqEU9ZIv\nwGFpxBua19cl7W0Uy3ofK9ld/Pr3HhEUJ3ITJ9voAwKBgQDIi4wAQzqJyF8JADgN\nyHlXbWUjC/92GdCiVbs0uggYfmec76rLPvQ9N9XSkwceHa8Ll7eaFF7vT+xD05DI\nas6WptCqbi9KO2QT3ba222IRD3GvKI6OmZMu5X2JTKQ0TLD/dqfVJJ8T2x608R4R\nTTTfTdhXOoIRfEM75MkryHIO4wKBgQDHFX6ZlYTUhO0ub3qIlswe6DgRVMxxOP4k\nHt3BNBkLCaC0ZM+8WgZbkubzPnPnNXrZbEVFQYBTja4WqPsQP0yeiQxKfF8qOmO+\nHOMMNbygO1kq1GxqxhwPpN0g7a8VbaewUwPWklUu7zq7TCq9FW9CXtukQwZkv1pw\n4kMbjkDxdwKBgQCOmOtLpIITRq6Mr+MrqcjeKaMocHeNen2ncF5U95KaGAeEx8Yi\nDvmMLg+UU4dUGrdE/vRGUwXOFH5jHCRu3cNXy/XDueVWWzSmC5jIHOZ2Sw0DB0uW\nigzl47iH0D9SENYqUCy2mfujGsOS1YATvVpDDg8utyOVW05TYDLLNxQjEQKBgFOj\nTx2c+EIEWlSw1uy9VaICc1OsqXtDs1lfclBx37eIYvCGjdOWiqc8LzSv3yeaizL+\nzpdK7mur0SCJ+3gW78yGzRgZ6i0mfLLpFeYSSV2TsWFR/v5Ynn9gBtqHoI/DErj8\nF1e1AH6IWMdJN4dakvRyP5ph4jS/Q3K7S/Ausk//AoGBAL/SVPtyjYAzo54ITLa1\n9elmYeoe6T43RqPljN/A29HbyZC1hMOCuh8RMaOHX6n6qS2rnxxIWTRXPKcB8syN\n3wwW0lNnxIUS1aBllAHHcjeW6ABVebXF6rgZ8q2mYIl4TZzVapsdcWlXg/SOU8ej\n5kvPWftBkzxfzwX+gTWRBcv0\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@sencord-99002.iam.gserviceaccount.com",
+  "client_id": "111856739109722688419",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40sencord-99002.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
