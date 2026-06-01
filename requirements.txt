@@ -1,7 +1,0 @@
-flask
-flask-socketio
-firebase-admin
-pywebview
-python-socketio
-python-engineio
-pyinstaller
