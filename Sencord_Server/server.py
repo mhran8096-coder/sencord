@@ -1,3 +1,6 @@
+import eventlet
+eventlet.monkey_patch()
+
 import os
 import time
 from flask import Flask, render_template, request, jsonify
@@ -20,7 +23,6 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret_key_bta3_sencord'
 socketio = SocketIO(app, cors_allowed_origins="*")
 
-# مسار البروفايل (عشان الواجهة عندك متضربش إيرور)
 @app.route('/profile', methods=['GET', 'POST'])
 def handle_profile():
     return jsonify({
@@ -31,7 +33,6 @@ def handle_profile():
         'mic': 'default'
     })
 
-# --- دوال التعامل مع فايربيس (الشانلات والشات) ---
 def get_db_data():
     try:
         ref = db.reference('/')
@@ -114,7 +115,6 @@ def handleMessage(data):
 def on_leave(data):
     leave_room(data['room'])
 
-# --- WebRTC Signaling للفويس ---
 @socketio.on('offer')
 def handle_offer(data):
     emit('offer', {'offer': data['offer'], 'senderId': data['senderId']}, to=data['targetId'])
@@ -135,7 +135,6 @@ def handle_join_voice_room(data):
 def handle_ping(): 
     emit('pong_client')
 
-# المتغير ده مهم جداً لسيرفر Render
 application = app 
 
 if __name__ == '__main__':
